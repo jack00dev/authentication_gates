@@ -134,12 +134,12 @@ input:hover {
 @media (max-width: 1200px) {
 
     .auth-cover {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr ;
     }
 }
 
 
-@media (max-width: 720px) {
+@media (max-width: 880px) {
 
     .auth-cover {
         grid-template-columns: 1fr 1fr;
@@ -147,9 +147,10 @@ input:hover {
 }
 
 
-@media (max-width: 420px) {
+@media (max-width: 650px) {
 
     .auth-cover {
         grid-template-columns: 1fr;
+        display: block;
     }
 }
